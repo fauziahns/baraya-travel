@@ -1,0 +1,77 @@
+
+.progress-bar {
+    border-radius: 100px;
+    background: linear-gradient(274deg, #482EEB 0%, #DCEB2E 100%);
+}
+
+.btn {
+    background-color: #E7E7E7;
+    margin-top: 10px;
+}
+
+.btn:focus {
+    background: #28205A;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+    /* border-color: white; */
+}
+
+.period {
+    color: #767676;
+}
+
+.description {
+    color: #767676;
+}
+
+.text {
+    padding: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.main {
+    background: #F6F7F9;
+}
+
+.bg-white {
+    padding: 14px;
+}
+
+//breakpoints
+@media (min-width: 576px) { 
+    .wrapper {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) { 
+   .card {
+       width: 857px;
+   }
+}
+
+
+@media (min-width: 992px) { 
+   .card {
+       width: 857px;
+   }
+}
+
+
+@media (min-width: 1000px) { 
+   .card {
+       width: 857px;
+   }
+
+   .wrapper {
+    margin-left: 20px;
+   }
+}

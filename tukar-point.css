@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Jost:wght@400;500;600;700&family=Montserrat:wght@200;500;800&family=Oxygen:wght@300;400;700&display=swap');
+
+.card-text {
+    border-radius: 10px;
+    background: #F6F7F9;
+    padding: 12px;
+}
+
+.title {
+    color: #293F7C;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.card {
+    border-color: #FFF;
+    border-radius: 12px;   
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.progress-bar {
+    border-radius: 100px;
+    background: linear-gradient(274deg, #482EEB 0%, #DCEB2E 100%);
+}
+
+//breakpoints
+@media (min-width: 576px) { 
+    
+ }
+
+@media (min-width: 768px) { 
+    .card {
+        width: 506px;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .card {
+        width: 506px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .card {
+        width: 506px;
+    }
+ }
