@@ -14,7 +14,11 @@
     color: #293F7C;
     margin-bottom: 40px;
     margin-top: 40px;
-}
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
 
 .card {
     border-color: #FFF;
