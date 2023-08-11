@@ -54,7 +54,7 @@
     line-height: normal;
 }
 
-.nav-item a {
+label {
     font-size: 24px;
     color: #000;
     font-weight: 600;
@@ -84,6 +84,76 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.checkmark {
+    width: 40px;
+}
+
+.voucher {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrapper-reward {
+    background: #F6F7F9;
+    border-radius: 10px;
+    border: white;
+}
+  
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 769px;
+    font-family: sans-serif;
+    border-radius: 12px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.06);
+    height: auto;
+  }
+  
+  .tabs__label {
+    padding: 10px 16px;
+    cursor: pointer;
+    background: white;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .riwayat {
+    border-top-left-radius: 12px;
+  }
+
+  .reward {
+    border-top-right-radius: 12px;
+  }
+  
+  .tabs__radio {
+    display: none;
+  }
+  
+  .tabs__content {
+    order: 1;
+    width: 300px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+  }
+  
+  .tabs__radio:checked + .tabs__label {
+    background: #E5E5E5;
+  }
+  
+  .tabs__radio:checked + .tabs__label + .tabs__content {
+    display: block;
+  }
+
+  .wrapper {
+    border-radius: 12px;
 }
 
 
